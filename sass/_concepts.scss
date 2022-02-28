@@ -1,0 +1,37 @@
+#concepts{
+    p{
+        text-align: center;
+        padding: 0 5vw;
+    }
+
+    .concept{
+        padding: 0 5vw;
+
+        h2{
+            margin: 50px 0 20px;
+            padding-top: 10px;
+
+            border-radius: 20px 20px 0 0;
+            border-top: 1px dashed white;
+        }
+
+        .alinea{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            p:nth-child(even){
+                text-align: left;
+            }
+            p:nth-child(odd){
+                text-align: right;
+            }
+
+            img{
+                height: 20vw;
+                width: 30vw;
+                object-fit: cover;
+            }
+        }
+    }
+}

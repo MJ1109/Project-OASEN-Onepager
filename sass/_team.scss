@@ -1,11 +1,4 @@
-#teamDiv{
-    text-align: center;
-
-    h2{
-        margin: 0;
-        padding: 10px;
-    }
-    
+#team{
     .flexContainer{
         display: flex;
         flex-direction: row;
@@ -18,6 +11,9 @@
         margin-left: 5vw;
 
         .teammember{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             width: 20vw;
             height: 60vh;
             margin-bottom: 10vh;

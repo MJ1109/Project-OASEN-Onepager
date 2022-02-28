@@ -4,6 +4,8 @@
 // Add other scss files
 @import 'header';
 @import 'team';
+@import 'concepts';
+@import 'footer';
 
 // General styles 
 
@@ -23,13 +25,12 @@ h1, h2, h3, p, small{
 
 h1{
     font-size: 3rem;
+    text-align: center;
 }
 
 h2{
     font-size: 2rem;
-
-    margin: 0;
-    margin-bottom: 10px;
+    text-align: center;
 }
 
 h3{

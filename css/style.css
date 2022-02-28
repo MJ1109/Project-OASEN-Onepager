@@ -1,5 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Manrope&display=swap");
+header {
+  height: 100vh;
+}
+
+header #SiteTitle {
+  padding: 10px;
+  padding-top: 40px;
+}
+
+header #SiteTitle h1, header #SiteTitle h2 {
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+header #SiteTitle h1 {
+  font-size: 5rem;
+}
+
+header #SiteTitle h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+header #projectDiv {
+  width: 70vw;
+  margin-top: 15%;
+  margin-left: 15vw;
+  padding: 2%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-radius: 30px 0 30px 0;
+}
+
+header #projectDiv h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#team .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90vw;
+  height: 140vh;
+  margin-left: 5vw;
+}
+
+#team .flexContainer .teammember {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20vw;
+  height: 60vh;
+  margin-bottom: 10vh;
+  margin: 0 5% 10vh;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+#team .flexContainer .teammember img {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 50%;
+}
+
+#concepts p {
+  text-align: center;
+  padding: 0 5vw;
+}
+
+#concepts .concept {
+  padding: 0 5vw;
+}
+
+#concepts .concept h2 {
+  margin: 50px 0 20px;
+  padding-top: 10px;
+  border-radius: 20px 20px 0 0;
+  border-top: 1px dashed white;
+}
+
+#concepts .concept .alinea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#concepts .concept .alinea p:nth-child(even) {
+  text-align: left;
+}
+
+#concepts .concept .alinea p:nth-child(odd) {
+  text-align: right;
+}
+
+#concepts .concept .alinea img {
+  height: 20vw;
+  width: 30vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 70px 0 20px 0;
+}
+
+footer a {
+  text-decoration: underline;
+  color: white;
+}
+
+footer a:hover {
+  color: #e6e6e6;
+}
+
+footer small {
+  text-align: center;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(0), color-stop(0%, #001c95), color-stop(30%, #7979ec), to(#00e9ff));
+  background: linear-gradient(0, #001c95 0%, #7979ec 30%, #00e9ff 100%);
+}
+
+h1, h2, h3, p, small {
+  color: white;
+  font-family: 'Hubballi';
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+hr {
+  margin: 0;
+  background-color: white;
+  border: 1px solid white;
 }
 /*# sourceMappingURL=style.css.map */
