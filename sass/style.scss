@@ -1,3 +1,46 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Manrope&display=swap');
+
+// Add other scss files
+@import 'header';
+
+// General styles 
+
 *{
     box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(0, rgba(0,28,149,1) 0%, rgba(121,121,236,1) 30%, rgba(0,233,255,1) 100%);
+}
+
+h1, h2, h3, p{
+    color: white;
+    font-family: 'Hubballi';
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+hr{
+    margin: 0;
+    background-color: white;
+    border:  1px solid white;
 }
