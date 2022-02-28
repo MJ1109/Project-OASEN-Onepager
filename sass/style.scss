@@ -3,6 +3,7 @@
 
 // Add other scss files
 @import 'header';
+@import 'team';
 
 // General styles 
 
@@ -15,7 +16,7 @@ body{
     background: linear-gradient(0, rgba(0,28,149,1) 0%, rgba(121,121,236,1) 30%, rgba(0,233,255,1) 100%);
 }
 
-h1, h2, h3, p{
+h1, h2, h3, p, small{
     color: white;
     font-family: 'Hubballi';
 }

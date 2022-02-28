@@ -1,0 +1,38 @@
+#teamDiv{
+    text-align: center;
+
+    h2{
+        margin: 0;
+        padding: 10px;
+    }
+    
+    .flexContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        width: 90vw;
+        height: 140vh;
+        margin-left: 5vw;
+
+        .teammember{
+            width: 20vw;
+            height: 60vh;
+            margin-bottom: 10vh;
+            margin: 0 5% 10vh;
+            padding: 10px;
+
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            border: 1px solid white;
+
+            img {
+                height: 10vw;
+                width: 10vw;
+                border-radius: 50%;
+            }
+        }
+    }
+}
