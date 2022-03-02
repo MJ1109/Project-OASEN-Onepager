@@ -116,12 +116,19 @@ header #projectDiv h2 {
           align-items: center;
 }
 
-#concepts .concept .alinea p:nth-child(even) {
+#concepts .concept .alinea p {
   text-align: left;
 }
 
-#concepts .concept .alinea p:nth-child(odd) {
+#concepts .concept .alinea h3:nth-child(1) {
+  padding-right: 10px;
+  border-right: 1px solid white;
   text-align: right;
+}
+
+#concepts .concept .alinea h3:nth-child(3) {
+  padding-left: 10px;
+  border-left: 1px solid white;
 }
 
 #concepts .concept .alinea img {

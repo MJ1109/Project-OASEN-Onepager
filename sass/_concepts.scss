@@ -20,11 +20,18 @@
             flex-direction: row;
             align-items: center;
 
-            p:nth-child(even){
+            p{
                 text-align: left;
             }
-            p:nth-child(odd){
+
+            h3:nth-child(1){
+                padding-right: 10px;
+                border-right: 1px solid white;
                 text-align: right;
+            }
+            h3:nth-child(3){
+                padding-left: 10px;
+                border-left: 1px solid white;
             }
 
             img{
