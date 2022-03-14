@@ -134,6 +134,7 @@ header #projectDiv h2 {
 #concepts .concept .alinea img {
   height: 20vw;
   width: 30vw;
+  border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
 }
