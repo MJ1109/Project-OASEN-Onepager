@@ -87,6 +87,39 @@ header #projectDiv h2 {
   border-radius: 50%;
 }
 
+.result {
+  width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+.result li {
+  color: white;
+  font-family: 'Manrope', sans-serif;
+}
+
+.result .media {
+  width: auto;
+}
+
+.result p {
+  text-align: left !important;
+  max-width: 800px;
+  padding: 0 !important;
+}
+
+.undertitle iframe {
+  text-align: center !important;
+  margin: 0 auto;
+}
+
+.undertitle p {
+  text-align: center !important;
+  margin: 0 auto;
+}
+
+
+
 #concepts p {
   text-align: center;
   padding: 0 5vw;
@@ -210,3 +243,5 @@ hr {
   border: 1px solid white;
 }
 /*# sourceMappingURL=style.css.map */
+
+
