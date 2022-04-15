@@ -87,46 +87,31 @@ header #projectDiv h2 {
   border-radius: 50%;
 }
 
-.result {
-  width: 800px;
-  margin: 0 auto;
-  display: block;
+#finalConcept {
+  background-color: none;
 }
 
-.result li {
-  color: white;
-  font-family: 'Manrope', sans-serif;
+#finalConcept h3 {
+  width: 70%;
+  margin: 0 15% 15px;
+  text-align: center;
 }
 
-.result .media {
-  width: auto;
+#finalConcept p {
+  width: 70%;
+  margin: 0 15% 20px;
+  text-align: center;
 }
 
-.result p {
-  text-align: left !important;
-  max-width: 800px;
-  padding: 0 0 1rem !important;
+#finalConcept img, #finalConcept iframe {
+  width: 70%;
+  margin: 0 15%;
 }
 
-.undertitle iframe {
-  text-align: center !important;
-  margin: 0 auto;
+#finalConcept ul {
+  width: 70%;
+  margin: 0 15% 50px;
 }
-
-.undertitle p {
-  text-align: center !important;
-  margin: 0 auto;
-  margin-bottom: 3rem;
-  border-bottom: 1px dashed white;
-}
-
-@media only screen and (max-width: 720px) {
-  .result {
-    width: 100%;
-  }
-}
-
-
 
 #concepts p {
   text-align: center;
@@ -222,7 +207,8 @@ body {
   background: linear-gradient(0, #001c95 0%, #7979ec 30%, #00e9ff 100%);
 }
 
-h1, h2, h3, p, small {
+h1, h2, h3, p, small, li {
+  font-size: 1.2rem;
   color: white;
   font-family: 'Hubballi';
 }
@@ -251,5 +237,3 @@ hr {
   border: 1px solid white;
 }
 /*# sourceMappingURL=style.css.map */
-
-

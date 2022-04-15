@@ -4,6 +4,7 @@
 // Add other scss files
 @import 'header';
 @import 'team';
+@import 'finalConcept';
 @import 'concepts';
 @import 'footer';
 
@@ -18,7 +19,8 @@ body{
     background: linear-gradient(0, rgba(0,28,149,1) 0%, rgba(121,121,236,1) 30%, rgba(0,233,255,1) 100%);
 }
 
-h1, h2, h3, p, small{
+h1, h2, h3, p, small, li{
+    font-size: 1.2rem;
     color: white;
     font-family: 'Hubballi';
 }
