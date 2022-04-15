@@ -79,6 +79,11 @@ header #projectDiv h2 {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   border: 1px solid white;
+  overflow-y: auto;
+}
+
+#team .flexContainer .teammember::-webkit-scrollbar-track {
+  background: #d80b0b;
 }
 
 #team .flexContainer .teammember img {

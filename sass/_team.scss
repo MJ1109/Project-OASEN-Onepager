@@ -24,6 +24,12 @@
             border-radius: 20px;
             border: 1px solid white;
 
+            overflow-y: auto;
+
+            &::-webkit-scrollbar-track{
+                background: #d80b0b;
+            }
+
             img {
                 height: 10vw;
                 width: 10vw;
